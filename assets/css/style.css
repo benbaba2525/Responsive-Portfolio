@@ -24,6 +24,7 @@ body{
     height: 100px;
     width:100%;
     margin:auto;
+
     
 }
 
@@ -120,7 +121,7 @@ p{
 
 /*  Portfolio Page  */
 .wrapperP{
-    position: relative;
+    
     margin: auto;
     width: 960px;
     height: 750px;
@@ -326,6 +327,7 @@ footer{
 
 h1{
     font-size: 35px;
+    margin-left:12px;
 }
 
 .inside{
@@ -368,5 +370,55 @@ h1{
     
 }
 
+
+/*  Portfolio Page  */
+
+#bodyPortfolio{
+    font-size: 14px;
+    background-size: cover;
+}
+
+
+.wrapperP{
+
+    margin-left:30px;
+    width: 650px;
+    height: 720px;
+    margin-top: 30px;
+    
+}
+
+}
+
+
+
+
+/*
+  These rules take effect when the browser's width
+  is either 768px or less.
+*/
+@media screen and (max-width: 768px){
+
+/*   Header    */
+
+h1{
+    
+    font-size: 25px;
+    padding: 27px;
+    height: 100px;
+    width: 350px;
+    margin-top:-3px;
+    margin-left:30px;
+}
+
+.inside{
+    width:900px;
+}
+
+.link{
+    
+    right: -350px;
+   
+}
 
 }
