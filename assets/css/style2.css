@@ -9,54 +9,57 @@ body{
     margin: auto;
     background-size: cover;
     background-image: url('https://cdn.pixabay.com/photo/2013/07/18/14/56/open-163976_1280.jpg');
-
+   
+    overflow: auto;
 }
 
 
 /*   Header    */
 
 .header{
-    font-family: Georgia, Times, Times New Roman, serif;
+    
     background-color: #ffffff;
     border-bottom-color:#cccccc;
     border-bottom-style:  solid;
     height: 100px;
     width:100%;
-   
+    margin:auto;
+    position:fixed;
     
 }
 
 .inside{
-    width:960px;
+    width: 960px;
     margin: auto;
 }
 
 .logo{
-   
+    font-family: Georgia, Times, Times New Roman, serif;
+    font-size: 35px;
     background-color: #4aaaa5;
     color: whitesmoke;
     text-align: center;
-    padding: 25px;
+    padding: 20px;
     height: 97px;
     width: 500px;
-    margin: auto;
-    float: left;
     text-decoration: none;
-    font-size: 35px;
+    float: left;
+    position:absolute;
 }
 
 .link{
     
-    padding: 35px;
-    float:right;
-    
+    position:relative;
+    float: right;
+    left: 20px;
+     top: 30px;
+   
     
 }
 
 
-
-
 a{
+    font-family: Georgia, Times, 'Times New Roman', serif;
     font-size: 15px;
     text-align: center;
     color:#777777;
@@ -65,7 +68,7 @@ a{
 }
 
 a:hover{
-    color: rgb(20, 24, 228);
+    color: rgb(219, 57, 219);
 }
 
 .portfolio{
@@ -87,7 +90,7 @@ a:hover{
     margin: auto;
     width: 960px;
     height: 550px;
-    margin-top: 50px;
+    margin-top: 150px;
     background-color: #ffffff;
     border-color:#cccccc;
     border-style:  solid;
@@ -117,18 +120,21 @@ img{
 }
 
 p{
+    
     padding-top: 10px;
 }
 
 /*  Portfolio Page  */
 .wrapperP{
+    position: relative;
     margin: auto;
     width: 960px;
-    height: 750px;
-    margin-top: 50px;
+    height: 700px;
+    margin-top:150px;
     background-color: #ffffff;
     border-color:#cccccc;
     border-style:  solid;
+   
        
 }
 
@@ -311,6 +317,13 @@ footer{
 }
 
 
+
+
+
+
+
+
+
 /*
   These rules take effect when the browser's width
   is either 980px or less.
@@ -321,8 +334,23 @@ footer{
         font-size: 14px;
         background-size: auto;
     }
-
+ 
+ /*   Header    */
+ 
+ h1{
+     font-size: 35px;
+     margin-left:12px;
+ }
+ 
+ .inside{
+     width:900px;
+ }
+ 
+ .link{
+     
+     right: -400px;
     
+ }
  
  
  /*  Container */
@@ -361,29 +389,63 @@ footer{
  
  }
  
+ 
+ 
+ 
  /*
    These rules take effect when the browser's width
    is either 768px or less.
  */
  @media screen and (max-width: 768px){
  
-    /*   Header    */
-    
-    .logo{
-     width:350px;
+ /*   Header    */
+ 
+ h1{
+     
      font-size: 25px;
-     padding: 25px;
-     margin-left: 30px;
-     position:absolute;
-    }
+     padding: 27px;
+     height: 100px;
+     width: 350px;
+     margin-top:-3px;
+     margin-left:30px;
+ }
+ 
+ .inside{
+     width:900px;
+ }
+ 
+ .link{
+     
+     right: -350px;
     
-    .link{
-    
-        position:relative;
-        right: 200px;
-    }
-    
-    
-    }
-   
+ }
+ 
+ }
+ 
+ 
+ /*
+   These rules take effect when the browser's width
+   is either 640px or less.
+ */
+ @media screen and (max-width: 640px){
+     h1{
+         position:fixed;
+         font-size: 25px;
+         padding: 50px;
+         height: 100px;
+         width: 640x;
+         float: left;
+         
+     }
+ 
+ 
+ .link{
+     position:fixed;
+     float: right;
+ }
+ 
+ 
+ 
+ 
+ }
  
