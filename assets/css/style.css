@@ -402,17 +402,17 @@ footer{
  @media screen and (max-width: 640px){
     
     .header{
-        width: 100%;
+        width: 640px;
         height: 180px;
     }
     .inside{
-        width: 100%;
+        width: 640px;
     }
 
     .logo{
         margin: auto;
         padding: 30px;
-        width: 100%;
+        width: 640px;
         float:left;
         position:absolute;
         }
