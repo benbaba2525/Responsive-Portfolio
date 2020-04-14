@@ -95,7 +95,7 @@ a:hover{
 }
 
 .container{
-    margin-left: 30px;
+    margin-left: 40px;
     width: 880px;
     float: left;
     
@@ -110,11 +110,16 @@ h2{
 }
 
 /* About Me Page */
-img{
+.mypicture{
+    width:200px;
+    height:185px;
     float: left;
     margin-right: 20px;
     padding-top:10px;
 }
+   
+
+
 
 p{
     padding-top: 10px;
@@ -329,7 +334,7 @@ footer{
  .wrapper{
  
      margin-left:30px;
-     width: 650px;
+     width: 660px;
      height: 500px;
      
  }
@@ -341,6 +346,9 @@ footer{
      
  }
  
+ p{
+     padding: 5px;
+ }
  
  /*  Portfolio Page  */
  
@@ -383,7 +391,82 @@ footer{
         right: 200px;
     }
     
-    
     }
    
+
+    /*
+   These rules take effect when the browser's width
+   is either 640px or less.
+ */
+ @media screen and (max-width: 640px){
+    
+    .header{
+        height: 180px;
+    }
+
+
+    .logo{
+        margin: auto;
+        padding: 30px;
+        width: 100%;
+        float:left;
+        position:absolute;
+        }
+     
+    .link{
+    position:relative;
+    float: left;
+    top:90px;
+    left: 150px;
+    
+    }
+     
+     
+    /* About Me Page */
+
+
+.wrapper{
+ 
+        margin:auto;
+        margin-top: 30px;
+        margin-bottom: 200px;
+        width: 580px;
+        height: 860px;
+        
+    }
+
+.container{
+        width: 500px;
+        margin-left: 40px;
+        margin-right: 40px;
+    }
+    
+
+
+.mypicture{
+    float: left;
+    margin: auto;
+    margin-bottom: 15px;
+    padding-top:10px;
+    width: 500px;
+    height: 400px;
+}
+
+
+
+p{
+    float: left;
+    padding: 10px;
+    margin: auto;
+}
+
+footer{
+    clear: both;
+    overflow: auto;
+}
+
+
+}
+     
+    
  
