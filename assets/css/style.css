@@ -76,8 +76,10 @@ a:hover{
     padding-top: 5px;
 }
 
-/*  Container */
+/* ---- Container---- */
 
+
+/* Home Page Wrapper */
 .wrapper{
     margin: auto;
     width: 960px;
@@ -89,12 +91,15 @@ a:hover{
        
 }
 
+/* Container -- Home Page and Contact Page-- */ 
+
 .container, .container-form{
     margin-left: 40px;
     width: 880px;
     float: left;
     
 }
+
 
 h2{
     font-family: Georgia, Times, 'Times New Roman', serif;
@@ -104,7 +109,8 @@ h2{
     padding-bottom: 20px;
 }
 
-/* About Me Page */
+/* Home Page */
+
 .mypicture{
     width:200px;
     height:185px;
@@ -114,13 +120,12 @@ h2{
 }
    
 
-
-
 p{
     padding-top: 10px;
 }
 
 /*  Portfolio Page  */
+
 .wrapperP{
     margin: auto;
     width: 960px;
@@ -343,11 +348,14 @@ footer{
         width:900px;
         margin: auto;
     }
+
+    
  
  /*  Container */
  .wrapper, .wrapper-form{
  
-     margin-left:30px;
+     margin: auto;
+     margin-top:30px;
      width: 660px;
      height: 500px;
      
@@ -355,6 +363,7 @@ footer{
  
  .container, .container-form, .container-portfolio{
      margin-left: 30px;
+     margin-right: 30px;
      width: 600px;
      float: left;
      
@@ -374,11 +383,21 @@ footer{
  
  .wrapperP{
  
-     margin-left:30px;
+     margin:auto;
      width: 660px;
      height: 720px;
      margin-top: 30px;
      
+ }
+
+ /* Contact Page */
+
+ input{
+     margin-top: 5px;
+ }
+
+ textarea{
+     margin-top: 5px;
  }
  
  }
@@ -400,10 +419,14 @@ footer{
  width:350px;
  font-size: 25px;
  padding: 25px;
- margin-left: -20px;
+ margin: auto;
  position:absolute;
 }
 
+.link{
+position: relative;
+margin-right: -40px;
+}
 
         
     }
@@ -418,18 +441,18 @@ footer{
  @media screen and (max-width: 640px){
     
     .header{
-        width: 640px;
+        width: 100%;
         height: 180px;
     
     }
     .inside{
-        width:640px ;
+        width:100% ;
     }
 
     .logo{
         margin: auto;
         padding: 30px;
-        width: 640px;
+        width: 100%;
         float:left;
         position:absolute;
         }
@@ -443,7 +466,7 @@ footer{
     }
      
      
-    /* About Me Page */
+    /* Home Page */
 
 
 .wrapper{
@@ -455,6 +478,7 @@ footer{
         height: 860px;
         
     }
+/* Container of Home Page and Contact Page */
 
 .container, .container-form{
         width: 500px;
@@ -473,7 +497,6 @@ footer{
     width: 500px;
     height: 400px;
 }
-
 
 
 p{
@@ -517,14 +540,12 @@ p{
   .p1{
       position: absolute;
       text-align: center;
-      width:250px;
-      height: 40px;
-      bottom: 5px;
+      font-size: 25px;
+      width:400px;
+      height: 60px;
+      bottom: 12px;
       right: 15px;
-      background-color: #4aaaa5;
-      color: white;
-      padding-left: 20px;
-      padding-right: 20px;
+      
     }
   
   
@@ -537,16 +558,13 @@ p{
       
   }
   .p2{
-      position: absolute;
-      text-align: center;
-      width:250px;
-      height: 40px;
-      bottom: 5px;
-      right: 15px;
-      background-color: #4aaaa5;
-      color: white;
-      padding-left: 20px;
-      padding-right: 20px;
+    position: absolute;
+    text-align: center;
+    font-size: 25px;
+    width:400px;
+    height: 60px;
+    bottom: 12px;
+    right: 15px;
     }
   
   
@@ -558,16 +576,13 @@ p{
   }
   
   .p3{
-      position: absolute;
-      text-align: center;
-      width:250px;
-      height: 40px;
-      bottom: 5px;
-      right: 15px;
-      background-color: #4aaaa5;
-      color: white;
-      padding-left: 20px;
-      padding-right: 20px;
+    position: absolute;
+    text-align: center;
+    font-size: 25px;
+    width:400px;
+    height: 60px;
+    bottom: 12px;
+    right: 15px;
     }
   
   
@@ -581,16 +596,13 @@ p{
   
   
   .p4{
-          position: absolute;
-          text-align: center;
-          width:250px;
-          height: 40px;
-          bottom: 5px;
-          right: 15px;
-          background-color: #4aaaa5;
-          color: white;
-          padding-left: 20px;
-          padding-right: 20px;
+    position: absolute;
+    text-align: center;
+    font-size: 25px;
+    width:400px;
+    height: 60px;
+    bottom: 12px;
+    right: 15px;
       }
   
   .Pic5{
@@ -602,16 +614,13 @@ p{
   
   
   .p5{
-          position: absolute;
-          text-align: center;
-          width:250px;
-          height: 40px;
-          bottom: 5px;
-          right: 15px;
-          background-color: #4aaaa5;
-          color: white;
-          padding-left: 20px;
-          padding-right: 20px;
+    position: absolute;
+    text-align: center;
+    font-size: 25px;
+    width:400px;
+    height: 60px;
+    bottom: 12px;
+    right: 15px;
       }    
 
 /** Contact Form **/
