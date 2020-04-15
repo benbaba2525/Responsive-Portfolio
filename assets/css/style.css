@@ -440,25 +440,35 @@ margin-right: -40px;
  */
  @media screen and (max-width: 640px){
     
+    body{
+        width: 100%;
+        height: 100%;
+        margin:0px;
+        padding:0px;
+        overflow-x:hidden;
+        background-size: cover;
+    }
     .header{
-        width:640px;
+        margin: auto;
+        width:700px;
         height: 180px;
     
     }
     .inside{
-        width:640px;
+        margin: auto;
+        width:100%;
     }
 
     .logo{
         margin: auto;
         padding: 30px;
-        width: 640px;
+        width: 100%;
         float:left;
         position:absolute;
         }
      
     .link{
-    width: 640px;
+    width: 100%;
     position:relative;
     float: left;
     top:90px;
@@ -633,12 +643,7 @@ p{
 }
 
 
-footer{
-   
-    clear: both;
-    overflow: auto;
-    
-}
+
 
 
 }
