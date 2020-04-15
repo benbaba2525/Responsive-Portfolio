@@ -449,8 +449,7 @@ margin-right: -40px;
         background-size: cover;
     }
     .header{
-        margin: auto;
-        width:700px;
+
         height: 180px;
     
     }
@@ -464,16 +463,14 @@ margin-right: -40px;
         padding: 30px;
         width: 100%;
         float:left;
-        position:absolute;
+        
         }
      
     .link{
     width: 100%;
-    position:relative;
-    float: left;
+    float: right;
     top:90px;
-    left: 150px;
-    
+    left: 100px;
     }
      
      
