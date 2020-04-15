@@ -443,7 +443,7 @@ margin-right: -40px;
    is either 640px or less.
  */
  @media screen and (max-width: 640px){
-    
+
     
     
 .header{
@@ -629,15 +629,14 @@ p{
 /** Contact Form **/
 
 .wrapper-form{
-        clear:both;
-        overflow: hidden;
-        margin:auto;
-        margin-top: 200px;
-        margin-bottom: 200px;
-        width: 580px;
-        height: 600px;
+    clear:both;
+    overflow: hidden;
+    margin:auto;
+    margin-top: 200px;
+    margin-bottom: 200px;
+    width: 580px;
+    height: 600px;
         
-
 }
 
 
