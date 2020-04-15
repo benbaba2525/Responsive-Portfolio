@@ -441,6 +441,7 @@ margin-right: -40px;
  @media screen and (max-width: 640px){
     
     .header{
+        width:640px;
         height: 180px;
     
     }
