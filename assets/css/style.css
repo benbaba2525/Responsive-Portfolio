@@ -22,8 +22,9 @@ body{
     border-bottom-style:  solid;
     height: 100px;
     width:100%;
-    position:fixed;
     z-index:9999;
+    position:fixed;
+   
     top:0;
     
 }
@@ -89,6 +90,7 @@ a:hover{
     width: 960px;
     height: 550px;
     margin-top: 180px;
+    margin-bottom:100px;
     background-color: #ffffff;
     border-color:#cccccc;
     border-style:  solid;
@@ -135,6 +137,7 @@ p{
     width: 960px;
     height: 750px;
     margin-top: 180px;
+    margin-bottom: 100px;
     background-color: #ffffff;
     border-color:#cccccc;
     border-style:  solid;
@@ -267,6 +270,7 @@ left: 314px;
     width: 960px;
     height: 550px;
     margin-top: 180px;
+    margin-bottom:100px;
     background-color: #ffffff;
     border-color:#cccccc;
     border-style:  solid;
@@ -333,6 +337,7 @@ footer{
     border-top-style:  solid;
     border-width: 8px;
     color: rgb(167, 163, 163);
+   
     
 }
 
